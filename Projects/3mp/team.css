@@ -71,12 +71,15 @@ li a{
 .img{
     width: 150px;
     height: 150px;
-    border: inset 2px black;
+    border: solid 2px white;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     margin-left: 25px;
+}
+.img:last-child{
+    border: none;
 }
 .q{
     border: none;
