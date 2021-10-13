@@ -16,7 +16,37 @@
         <li><a href="about.html">About</a></li>
       </ul>
       <div class="container">
-        <a class="link" href="https://discord.gg/qYN77WMXxb"><p>Discord</p></a>
-    </div>
+
+            <div id="contactform">
+                <h1>Contact us!</h1>
+
+                <form id="contact" class="contact" method="post" action="contact.php">
+                    <div class="contactgroup">
+                        <label for="name" class="contactlabel">Your name</label>
+                        <div class="inputgroup">
+                            <input type="text" id="name" name="name" class="contactinput" required>
+                        </div>
+                     </div>
+                
+                    <div class="contactgroup">
+                         <label for="email" class="contactlabel">Your email address</label>
+                         <div class="inputgroup">
+                            <input type="email" id="email" name="email" class="contactinput" required>
+                         </div>
+                    </div>
+
+                    <div class="contactgroup">
+                        <label for="message" class="contactlabel">Your message</label>
+                        <div class="inputgroup">
+                            <textarea id="message" name="message" class="contactinput" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="contactgroup">
+                        <button type="submit" id="button" class="button">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 </body>
 </html>
