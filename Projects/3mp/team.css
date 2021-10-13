@@ -41,20 +41,19 @@ li a{
     padding: 15px;
     width: 800px;
     height: 600px;
-    border: solid 1px black;
     display: flex;
     flex-wrap: row;
     justify-content: center;
 }
 .agents{
-    border: solid 1px black;
     padding-top: 50px;
     width: 200px;
 }
 .Stats{
-    border: solid 1px black;
     margin-right: 100px;
     width: 400px;
+    box-shadow: 0 0 5px 5px #222049;
+    border-radius: 25px;
 }
 .p1{
     color: white;
@@ -66,21 +65,19 @@ li a{
     color: white;
     font-family: cursive;
     font-size: x-large;
+    padding-left: 20px;
     
 }
 .img{
     width: 150px;
     height: 150px;
-    border: solid 2px white;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     margin-left: 25px;
-}
-.img:last-child{
-    border: none;
+    box-shadow:  0 0 5px 5px #222049;
 }
 .q{
-    border: none;
+    box-shadow: none;
 }
