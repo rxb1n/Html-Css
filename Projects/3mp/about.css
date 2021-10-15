@@ -41,7 +41,7 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: cursive;
+    font-family: SHRIKHAND;
     font-size: 30px;
 }
 .container{
@@ -62,14 +62,14 @@ li a{
 }
 .p1{
     text-align: center;
-    font-family: cursive;
+    font-family: SHRIKHAND;
     font-size: xx-large;
     color: white;
 }
 .p2{
     color: white;
     text-align: left;
-    font-family: cursive;
+    font-family: SHRIKHAND;
     font-size: xx-large;
 }
 .img{
